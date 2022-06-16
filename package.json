@@ -1,20 +1,30 @@
 {
   "name": "chia-peng",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "my template cli",
+  "main": "build.js",
   "scripts": {
     "dev": "node ./build.js"
   },
   "bin": {
-    "mycli": "./build.js"
+    "peng": "./build.js"
   },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "chia-peng",
+    "lijiapeng",
+    "peng"
+  ],
   "author": "chia-peng",
   "license": "ISC",
   "dependencies": {
+    "chalk": "4.1.2",
     "commander": "^9.3.0",
     "inquirer": "^8.2.4",
-    "ora": "4.0.3"
+    "ora": "4.0.3",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.42"
   }
 }

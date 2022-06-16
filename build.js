@@ -1,33 +1,23 @@
-#!/usr/bin/env node
 const inquirer = require("inquirer");
 const { Command } = require("commander");
-const ora = require("ora");
+const copyFolder = require("./utils/copyFile");
 
 const program = new Command();
 
-program.version("0.0.1");
+program.name("chia-peng-cli").version("0.0.1");
 
-program.option("--init", "this is init", () => {
-  const spinner = ora({
-    text: "安装中...",
-  });
+program.option("--init", "初始化项目", (e) => {
   inquirer
     .prompt([
       {
         type: "list",
         name: "lib",
         message: "选择用到的框架：",
-        choices: ["vite-ts", "loading", "loading", "loading"],
+        choices: ["vite-vue-ts", "loading", "loading", "loading"],
       },
     ])
-    .then(({ lib }) => {
-      console.log(lib);
-      spinner.start();
-      setTimeout(() => {
-        // spinner.stop();
-        spinner.succeed("安装成功");
-        // console.log("安装成功");
-      }, 1000);
+    .then(async ({ lib }) => {
+      copyFolder(lib);
     });
 });
 
