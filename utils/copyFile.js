@@ -42,9 +42,6 @@ function copyFolder(fileName) {
         } else {
           if (filterNeedFile(cf.name)) continue;
           try {
-            /**
-             * @des 判断读(R_OK | W_OK)写权限
-             */
             fs.accessSync(join(crp, ".."), fs.constants.W_OK);
             mkdirFils(ccp, crp);
           } catch (error) {
