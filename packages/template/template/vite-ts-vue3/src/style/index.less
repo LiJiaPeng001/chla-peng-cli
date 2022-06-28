@@ -1,0 +1,26 @@
+@import "./common/index.less";
+@import "./variable.less";
+@import "./theme/index.less";
+
+.word-break {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.user-select {
+  user-select: none;
+  -webkit-user-select: none;
+}
+body {
+  background-color: var(--bgColor);
+  color: var(--textColor);
+  transition: 0.2s linear;
+}

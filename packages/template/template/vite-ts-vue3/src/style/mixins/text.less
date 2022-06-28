@@ -1,0 +1,15 @@
+// 文字溢出省略
+.ellipsis(@lines: 1, @width: 100%) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  & when (@lines = 1) {
+    width: @width;
+    white-space: nowrap;
+  }
+  & when (@lines > 1) {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: @lines;
+    word-break: break-all;
+  }
+}
