@@ -1,6 +1,6 @@
 {
   "name": "@peng/template",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "my-template",
   "main": "build.js",
   "private": true,
