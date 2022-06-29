@@ -1,9 +1,8 @@
 {
   "name": "@peng/template",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "my-template",
   "main": "build.js",
-  "private": true,
   "publishConfig": {
     "access": "public"
   },
@@ -30,6 +29,5 @@
   },
   "devDependencies": {
     "@types/node": "^17.0.42"
-  },
-  "gitHead": "6adbb329c247d6ea4b6a7a643227578605ff04b0"
+  }
 }
