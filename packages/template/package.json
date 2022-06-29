@@ -1,6 +1,6 @@
 {
   "name": "@peng/template",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "my-template",
   "main": "build.js",
   "scripts": {
@@ -15,6 +15,7 @@
     "lijiapeng",
     "template"
   ],
+  "homepage": "https://github.com/LiJiaPeng001/peng-package/packages/template#readme",
   "author": "chia-peng",
   "license": "ISC",
   "dependencies": {
