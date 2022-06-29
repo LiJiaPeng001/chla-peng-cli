@@ -3,6 +3,10 @@
   "version": "1.0.2",
   "description": "my-template",
   "main": "build.js",
+  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "node ./build.js"
   },
@@ -27,5 +31,5 @@
   "devDependencies": {
     "@types/node": "^17.0.42"
   },
-  "gitHead": "a958798cc3a1a661473fa29322c79451b9803252"
+  "gitHead": "6adbb329c247d6ea4b6a7a643227578605ff04b0"
 }
