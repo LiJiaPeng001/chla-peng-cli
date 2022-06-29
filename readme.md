@@ -1,13 +1,13 @@
 <div align=center>
 
-## package for peng
+## packages for peng
 
 </div>
 
 ## 📦 Install
 
 ```
-yarn add @peng/template -S
+npm install @peng/template -g
 ...
 ```
 
