@@ -1,5 +1,4 @@
 <div align=center>
-
 ## package for peng
 
 </div>
@@ -7,12 +6,12 @@
 ## 📦 Install
 
 ```
-npm install @peng/template -g
-...
+npm install @peeeng/template -g
 ```
 
 ## 🦄 Usage
 
 ```
-@peng/template --init
+peeeng-cli --version
+peeeng-cli init <project-name>
 ```
