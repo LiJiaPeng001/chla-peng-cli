@@ -1,5 +1,5 @@
 {
-  "name": "@peng/template",
+  "name": "@peeeng/template",
   "version": "1.0.0",
   "description": "my-template",
   "main": "build.js",
@@ -10,20 +10,21 @@
     "dev": "node ./build.js"
   },
   "bin": {
-    "@peng/template": "./build.js"
+    "peeeng-cli": "./bin/peeeng-cli"
   },
   "keywords": [
-    "cli",
-    "peng",
-    "lijiapeng",
-    "template"
+    "vue-cli",
+    "vite",
+    "ts",
+    "vue3"
   ],
   "homepage": "https://github.com/LiJiaPeng001/peng-package/packages/template#readme",
   "author": "lijiapeng001",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "chalk": "4.1.2",
     "commander": "^9.3.0",
+    "download-git-repo": "^3.0.2",
     "inquirer": "^8.2.4",
     "ora": "4.0.3"
   },

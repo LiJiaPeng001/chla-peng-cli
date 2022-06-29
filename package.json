@@ -1,5 +1,5 @@
 {
-  "name": "chia-peng",
+  "name": "peng-package",
   "private": true,
   "workspaces": [
     "packages/*"
