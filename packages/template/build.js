@@ -19,7 +19,6 @@ program.option("--init", "初始化项目", (e) => {
         },
       ])
       .then(async ({ lib }) => {
-        console.log(lib);
         copyFolder(lib);
       });
   });

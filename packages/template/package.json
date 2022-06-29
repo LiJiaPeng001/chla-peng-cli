@@ -20,7 +20,7 @@
     "template"
   ],
   "homepage": "https://github.com/LiJiaPeng001/peng-package/packages/template#readme",
-  "author": "chia-peng",
+  "author": "lijiapeng001",
   "license": "ISC",
   "dependencies": {
     "chalk": "4.1.2",
