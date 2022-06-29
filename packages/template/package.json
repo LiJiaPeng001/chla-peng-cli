@@ -13,9 +13,9 @@
     "cli",
     "peng",
     "lijiapeng",
-    "peng"
+    "template"
   ],
-  "author": "peng",
+  "author": "chia-peng",
   "license": "ISC",
   "dependencies": {
     "chalk": "4.1.2",

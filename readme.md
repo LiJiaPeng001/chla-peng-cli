@@ -1,19 +1,18 @@
 <div align=center>
 
-# HI，this is MY-cli
+## package for peng
 
 </div>
 
-### 运行
+## 📦 Install
 
 ```
-yarn
-yarn dev
+yarn add @peng/template -S
+...
 ```
 
-### 使用
+## 🦄 Usage
 
 ```
-npm install chia-peng-cli -g
-peng --init
+@peng/template --init
 ```
