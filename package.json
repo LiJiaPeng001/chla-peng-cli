@@ -4,6 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "command": {
     "publish": {
       "registry": "https://registry.npmjs.org"
