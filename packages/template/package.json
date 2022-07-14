@@ -15,7 +15,7 @@
     "ts",
     "vue3"
   ],
-  "homepage": "https://github.com/LiJiaPeng001/peng-package/packages/template",
+  "homepage": "https://github.com/LiJiaPeng001/peng-package/tree/master/packages/template",
   "author": "lijiapeng001",
   "license": "MIT",
   "dependencies": {
