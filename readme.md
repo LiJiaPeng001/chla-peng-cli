@@ -7,12 +7,13 @@
 ## 📦 Install
 
 ```
-npm install @peng/template -g
+npm install @peeeng/template -g
 ...
 ```
 
 ## 🦄 Usage
 
 ```
-@peng/template --init
+peeeng --version
+peeeng init <project name>
 ```
