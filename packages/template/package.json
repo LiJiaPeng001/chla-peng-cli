@@ -2,7 +2,7 @@
   "name": "@peeeng/template",
   "version": "1.0.1",
   "description": "my-template",
-  "main": "build.js",
+  "main": "./bin/peeeng-cli",
   "publishConfig": {
     "access": "public"
   },
