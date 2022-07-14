@@ -1,6 +1,6 @@
 {
   "name": "@peeeng/template",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "my-template",
   "main": "./bin/peeeng-cli",
   "publishConfig": {
